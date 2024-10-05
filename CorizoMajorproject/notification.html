@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .notification-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+        .notification-card:hover {
+            transform: translateY(-5px);
+        }
+        .notification-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .notification-body {
+            font-size: 14px;
+            color: #666;
+        }
+        .notification-time {
+            font-size: 12px;
+            color: #999;
+            margin-top: 10px;
+        }
+        .icon {
+            width: 40px;
+            height: 40px;
+            float: left;
+            margin-right: 15px;
+        }
+        .notification-content {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Notifications</h2>
+
+    <!-- Order update notification -->
+    <div class="notification-card">
+        <div class="notification-content">
+            <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-delivery-online-shopping-flatart-icons-outline-flatarticons.png" alt="Order Icon" class="icon">
+            <div>
+                <div class="notification-title">Your Order has been Shipped!</div>
+                <div class="notification-body">Order #12345 has been shipped and is on its way. You can track your delivery through the app.</div>
+                <div class="notification-time">2 hours ago</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promotion notification -->
+    <div class="notification-card">
+        <div class="notification-content">
+            <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-sale-supermarket-flaticons-flat-flat-icons.png" alt="Promotion Icon" class="icon">
+            <div>
+                <div class="notification-title">Flash Sale Alert!</div>
+                <div class="notification-body">Get 50% off on selected items. Hurry up! The sale ends in 2 hours.</div>
+                <div class="notification-time">5 hours ago</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offer notification -->
+    <div class="notification-card">
+        <div class="notification-content">
+            <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-offer-online-shopping-kiranshastry-lineal-kiranshastry.png" alt="Offer Icon" class="icon">
+            <div>
+                <div class="notification-title">Exclusive Offer Just for You!</div>
+                <div class="notification-body">Enjoy a 20% discount on your next purchase using code: SAVE20.</div>
+                <div class="notification-time">1 day ago</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New product notification -->
+    <div class="notification-card">
+        <div class="notification-content">
+            <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-new-product-sales-flaticons-flat-flat-icons.png" alt="New Product Icon" class="icon">
+            <div>
+                <div class="notification-title">New Arrivals in Store!</div>
+                <div class="notification-body">Check out the latest collection of summer wear in our store. Shop now before it’s gone.</div>
+                <div class="notification-time">2 days ago</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
